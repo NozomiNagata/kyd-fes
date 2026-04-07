@@ -264,6 +264,7 @@ body.home header {
 	text-align: center;	/*ブロック内をセンタリング*/
 }
 
+
 /*ボックス１個あたり*/
 .list-grid .list {
 	background: #fff;	/*背景色*/
@@ -628,3 +629,27 @@ footer small {
 .small {font-size: 0.75em;}
 .large {font-size: 2em; letter-spacing: 0.1em;}
 .block {display: block !important;}
+
+#logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  justify-content: flex-start;
+  
+  /* 文字を大きくする（お好みで調整） */
+  font-size: 2rem; 
+  font-weight: bold;
+}
+
+#logo img {
+  flex-shrink: 0;
+  
+  /* 画像を大きくする（さっきより数値を大きく） */
+  height: 40px; 
+  width: auto;
+  
+  /* 【重要】ここを小さくすると画像と文字が近づきます */
+  margin-right: 5px; 
+}
+
