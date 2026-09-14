@@ -7,7 +7,7 @@ $(function(){
   //-------------------------------------------------
   const $menubar = $('#menubar');
   const $menubarHdr = $('#menubar_hdr');
-  const breakPoint = 900;	// ここがブレイクポイント指定箇所です
+  const breakPoint = 1000;	// ここがブレイクポイント指定箇所です
 
   // ▼ここを切り替えるだけで 2パターンを使い分け！
   //   false → “従来どおり”
