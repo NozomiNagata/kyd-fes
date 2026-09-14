@@ -53,14 +53,14 @@
 ---------------------------------------------------------------------------*/
 body * {box-sizing: border-box;}
 html,body {
-	font-size: 18px;	/*基準となるフォントサイズ。*/
+	font-size: 15px;	/*基準となるフォントサイズ。*/
 }
 
 	/*画面幅900px以上の追加指定*/
 	@media screen and (min-width:900px) {
 
 	html, body {
-		font-size: 18px;	/*基準となるフォントサイズ。*/
+		font-size: 15px;	/*基準となるフォントサイズ。*/
 	}
 
 	}/*追加指定ここまで*/
@@ -914,4 +914,28 @@ footer small {
   #project-list {
     grid-template-columns: 1fr;
   }
+}
+
+/* お知らせと企画ページの文字だけ大きくする　*/
+.top-news {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+#project-list .text h4 {
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+#project-list .text p {
+  font-size: 15px;
+}
+
+#event-detail {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+#event-detail h2 {
+  font-size: 30px;
 }
