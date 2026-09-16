@@ -31,9 +31,9 @@
     "floor": "2階",
     "room": "1-C教室",
     "tag":"演劇",
-    "description": "時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。",
+    "description": "",
     "image": "images/1c.jpg",
-    "note" : ""
+    "note" : "時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。"
   }, 
   {
     "id": "1d",
@@ -55,9 +55,9 @@
     "floor": "2階",
     "room": "1-E教室",
     "tag":"演劇",
-    "description": "時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。",
+    "description": "",
     "image": "images/1e.jpg",
-    "note" : ""
+    "note" : "時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。"
   }, 
   {
     "id": "1f",
@@ -165,7 +165,7 @@
     "tag":"映像",
     "description": "ホラー映像を上映します。",
     "image": "images/2f.jpg",
-    "note" : "上映時間："
+    "note" : ""
   },
   {
     "id": "2g",
@@ -211,9 +211,9 @@
     "floor": "1階",
     "room": "生徒ホール",
     "tag":"公演",
-    "description": "器械体操班による演技を行います。時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。",
+    "description": "器械体操班による演技を行います。",
     "image": "images/taisou.jpg",
-    "note" : ""
+    "note" : "時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。"
   },
   {
     "id": "dance",
@@ -223,9 +223,9 @@
     "floor": "体育館棟3階",
     "room": "体育館",
     "tag":"公演",
-    "description": "時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。",
+    "description": "ダンス班によるダンス公演を行います。",
     "image": "images/dance.jpg",
-    "note" : ""
+    "note" : "時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。"
   },
   {
     "id": "brass",
@@ -235,9 +235,9 @@
     "floor": "体育館棟3階",
     "room": "体育館",
     "tag":"公演",
-    "description": "ブラスバンド班による演奏を行います。時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。",
+    "description": "ブラスバンド班による演奏を行います。",
     "image": "images/brass.jpg",
-    "note":""
+    "note":"時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。"
   },
   {
     "id": "gengaku",
@@ -247,9 +247,9 @@
     "floor": "体育館棟1階",
     "room": "柔剣道場",
     "tag":"公演",
-    "description": "時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。",
+    "description": "弦楽班によるライブを行います。",
     "image": "images/gengaku.jpg",
-    "note" : ""
+    "note" : "時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。"
   },
   {
     "id": "engeki",
@@ -259,9 +259,9 @@
     "floor": "3階",
     "room": "多目的室",
     "tag":"演劇",
-    "description": "時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。",
+    "description": "演劇班による演劇を行います。",
     "image": "images/engeki.jpg",
-    "note" :""
+    "note" :"時間は<a href='timetable.html'>タイムテーブル</a>をご確認ください。"
   },
   {
     "id": "homusa",
