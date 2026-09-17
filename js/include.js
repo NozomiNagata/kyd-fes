@@ -5,6 +5,12 @@ document.addEventListener("DOMContentLoaded", async function () {
   const script = document.createElement("script");
   script.src = "js/main.js";
   document.body.appendChild(script);
+
+  //アクセス数をとる　Vercel Web Analytics
+  const analytics = document.createElement("script");
+  analytics.src = "/_vercel/insights/script.js";
+  analytics.defer = true;
+  document.body.appendChild(analytics);
 });
 
 async function includeHTML(id, filePath) {

@@ -204,7 +204,7 @@ body.home header {
 	margin-bottom: 0;
 	padding: 1rem 0.5rem;
 	font-weight: bold;
-
+	
 }
 
 
@@ -938,4 +938,44 @@ footer small {
 
 #event-detail h2 {
   font-size: 30px;
+}
+
+.small-screen #menubar a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0;
+  padding: 1rem 0.5rem;
+  font-weight: bold;
+  gap: 1rem;
+}
+
+.small-screen #menubar .menu-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1.8em;
+  min-width: 1.8em;
+
+  color: #555;
+}
+
+/* ハンバーガーメニュー用アイコン
+---------------------------------------------------------------------------*/
+
+/* 通常の横長メニューではアイコンを非表示 */
+.menu-icon {
+  display: none;
+}
+
+/* ハンバーガーメニューのときだけアイコンを表示 */
+.small-screen #menubar .menu-icon {
+  display: inline-block;
+  width: 1.4em;
+  margin-right: 0.6em;
+  text-align: center;
+  color: #555;
 }
