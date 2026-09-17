@@ -979,3 +979,18 @@ footer small {
   text-align: center;
   color: #555;
 }
+
+/* 背景に画像表示 */
+.poster-bg {
+/*   background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.70),
+      rgba(255, 255, 255, 0.70)
+    ),
+   url("../images/poster.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; */
+}
