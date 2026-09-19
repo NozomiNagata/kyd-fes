@@ -179,7 +179,10 @@
     <line class="cls-9" x1="241.5" y1="1073" x2="241.5" y2="1023"/>
     <line class="cls-9" x1="1622.5" y1="1131.5" x2="1440.5" y2="1131.5"/>
     <line class="cls-8" x1="1203" y1="660" x2="1442" y2="660"/>
+    <line class="cls-8" x1="1346" y1="503" x2="1346" y2="660"/> <!-- 和室用に追加 -->
+    <rect x="1299.5" y="503.5" width="46.5" height="46.5" fill="none" stroke="#000" stroke-width="1"/> <!-- 和室右上の四角追加 -->
   </g>
+
   <g id="room_gym">
     <polyline class="cls-8" points="1371 338 1371 280 1663 280 1663 0 1102 0 1102 280 1311 280 1311 338"/>
     <g>
@@ -261,10 +264,10 @@
     </g>
     <!-- <text class="cls-4" transform="translate(286.09 1149.56)"><tspan x="0" y="0">2H</tspan></text> -->
   </g>
-  <g id="room_pilotis3">
-  <rect x="1339.5" y="906.5" width="112" height="117" fill="transparent"/>
-  <text x="1395.5" y="975" text-anchor="middle" font-size="30" font-family="Noto Sans JP" font-weight="600">ピロティ</text>
-  </g>
+    <g id="room_pilotis3">
+      <rect x="1339.5" y="906.5" width="112" height="117" fill="transparent"/>
+      <text x="1395.5" y="975" text-anchor="middle" font-size="30" font-family="Noto Sans JP" font-weight="600">ピロティ</text>
+    </g>
   <g id="room_tamoku">
     <g>
       <rect class="cls-7" x="241.5" y="739.5" width="287" height="166"/>
@@ -272,4 +275,8 @@
     </g>
     <text class="cls-4" transform="translate(385 840)" text-anchor="middle"><tspan x="0" y="0">多目的室</tspan></text>
   </g>
+<g id="room_wasitu">
+  <rect x="1203.5" y="503.5" width="142.5" height="156.5" fill="#fff" fill-opacity="0" stroke="none"/>
+  <text transform="translate(1274.75 600)" text-anchor="middle" font-family="Noto Sans JP" font-size="32" font-weight="600"><tspan x="0" y="0">和室</tspan></text>
+</g>
 </svg>

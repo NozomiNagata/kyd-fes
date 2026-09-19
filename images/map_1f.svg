@@ -178,9 +178,9 @@
   <g id="room_hikariniwa">
     <g>
       <rect class="cls-6" x="1204.5" y="661.5" width="236" height="194"/>
-      <path class="cls-1" d="M1439,663v191h-233v-191h233M1442,660h-239v197h239v-197h0Z"/>
+      <path class="cls-7" d="M1439,663v191h-233v-191h233M1442,660h-239v197h239v-197h0Z"/>
     </g>
-    <text class="cls-4" transform="translate(1285.34 771.12)"><tspan x="0" y="0">光庭</tspan></text>
+    <!-- <text class="cls-4" transform="translate(1285.34 771.12)"><tspan x="0" y="0">光庭</tspan></text> -->
   </g>
   <g id="room_hall">
     <g>
