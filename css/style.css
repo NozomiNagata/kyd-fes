@@ -994,3 +994,9 @@ footer small {
   background-size: cover;
   background-attachment: fixed; */
 }
+
+/* お知らせのNewを赤字にする */
+ .new-label {
+	color: #d96c6c;
+  	font-weight: 600;
+}
